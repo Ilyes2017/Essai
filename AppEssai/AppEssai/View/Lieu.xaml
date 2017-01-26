@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="AppEssai.View.Lieu"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppEssai.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="white">
+        <StackPanel>
+            <TextBox Name="txtnom lieu" PlaceholderText="nom lieu" Margin="10"/>
+            <TextBox Name="Txtadresse" PlaceholderText="adresse" Margin="10" LostFocus="Txtadresse_LostFocus" />
+            <TextBox Name="Txtlongetude" PlaceholderText="longetude" Margin="10"/>
+            <TextBox Name="Txtlatitude" PlaceholderText="latitude" Margin="10"/>
+
+
+        </StackPanel>   
+    </Grid>
+</Page>
